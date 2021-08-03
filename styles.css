@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+}
+.topContainer {
+  text-align: center;
+  padding: 20px;
+  padding: 40px 30px;
+}
+h1 {
+  font-size: 1.6rem;
+  color: hsl(234, 12%, 34%);
+}
+.span-text {
+  font-weight: 200;
+  font-size: 1.6rem;
+  color: hsl(229, 6%, 66%);
+}
+p {
+  font-weight: 400;
+  color: hsl(229, 6%, 66%);
+}
+.main-container {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
