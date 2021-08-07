@@ -6,6 +6,11 @@ body {
   margin: 0;
   padding: 0;
   font-size: 15px;
+  background-color: hsl(0, 0%, 98%);
+}
+.container {
+  width: 375px;
+  margin: 50px auto;
 }
 .topContainer {
   text-align: center;
@@ -26,8 +31,24 @@ p {
   color: hsl(229, 6%, 66%);
 }
 .main-container {
-  display: flex;
-  flex-direction: column;
+  padding: 3em;
   /* justify-content: center; */
   /* align-items: center; */
+}
+.main-container > div {
+  margin-bottom: 40px;
+}
+
+.image {
+  padding-top: 40px;
+  transform: translateX(170px);
+}
+
+.card {
+  background: white;
+  border-radius: 5px;
+  border-top: 5px solid hsl(180, 62%, 55%);
+  padding: 2em;
+  font-size: 12px;
+  line-height: 25px;
 }
